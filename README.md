@@ -1,6 +1,8 @@
 # Pipeworx
 
-**Live data for AI agents.** One MCP connection gives your AI access to 261 data sources and 961 tools — SEC filings, FDA adverse events, trade flows, mortgage rates, clinical trials, government contracts, and more.
+[![smithery badge](https://smithery.ai/badge/pipeworx/pipeworx)](https://smithery.ai/servers/pipeworx/pipeworx)
+
+**Live data for AI agents.** One MCP connection gives your AI access to 750+ data sources and 3,300+ tools — SEC filings, FDA adverse events, trade flows, mortgage rates, clinical trials, government contracts, and more.
 
 Pipeworx is not a directory. It's a metered data gateway. The data sources behind it — ATTOM, FRED, SEC EDGAR, ClinicalTrials.gov, UN Comtrade, EPA, BLS — are the same sources analysts and institutions pay thousands to access. Your AI agent gets them through one URL.
 
@@ -96,8 +98,8 @@ fintech_company_deep_dive({ ticker: "AAPL" })
 | Tier | Daily limit | How |
 |------|-------------|-----|
 | Anonymous | 50 calls | No auth needed |
-| BYO Key | 500 calls | `X-API-Key` header |
-| Free account | 2,000 calls | [pipeworx.io](https://pipeworx.io) |
+| BYO Key | 200 calls | `X-API-Key` header |
+| Free account | 200 calls | [pipeworx.io](https://pipeworx.io) |
 | Paid | Unlimited | [pipeworx.io/account](https://pipeworx.io/account) |
 
 ## Links
