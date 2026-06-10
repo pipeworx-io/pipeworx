@@ -2,17 +2,9 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/pipeworx",
   "title": "Pipeworx",
-  "description": "Live data gateway for AI agents. 261 data sources, 961 tools.",
-  "version": "0.1.0",
+  "description": "Live data gateway for AI agents — one connector to 750+ sources and 3,300+ tools (SEC, FRED, FDA, USPTO, weather, markets, news), with citations. ask_pipeworx routes any question to the right source.",
+  "version": "1.0.0",
   "websiteUrl": "https://pipeworx.io",
-  "repository": {
-    "url": "https://github.com/pipeworx-io/pipeworx",
-    "source": "github"
-  },
-  "remotes": [
-    {
-      "type": "streamable-http",
-      "url": "https://gateway.pipeworx.io/mcp"
-    }
-  ]
+  "repository": { "url": "https://github.com/pipeworx-io/pipeworx", "source": "github" },
+  "remotes": [ { "type": "streamable-http", "url": "https://gateway.pipeworx.io/pipeworx-catalog/mcp" } ]
 }
